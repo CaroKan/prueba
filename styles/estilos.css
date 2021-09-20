@@ -16,4 +16,17 @@ body{
 .logo{
     height: 80px;
 
+.mainButon{
+    background-color:#1bb76e;
+    color:white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius:10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px green;
+}
+.mainButon:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(173, 223, 173);
+    transform: scale(1.1); /*--transforma el boton*/
 }
