@@ -4,7 +4,6 @@ ul{
     margin: 0px;
 }
 
-
 .navbar{
     display:flex ;
     justify-content: space-between;
@@ -12,7 +11,6 @@ ul{
     background-color: rgb(237, 237, 238);
     border-bottom: 1px solid gray;
     box-shadow: 1px 1px gray;
-    
 }
 .navbar > li{
     display: flex;
@@ -73,5 +71,4 @@ body{
 }
 .iconoBusqueda:hover{
     color: #1b38b7;
-
 }
