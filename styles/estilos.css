@@ -1,0 +1,61 @@
+ul{
+    list-style:none ;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display:flex ;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body{
+    margin: 0%;
+}
+.logo{
+    height: 80px;
+}
+  
+.button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius:10px;
+    font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    /*box-shadow: 3px 3px rgb(173, 223, 173);*/
+    transform: scale(1.1); /*--transforma el boton*/
+}
+.mainButon{
+    background-color:#1bb76e;
+    color:white;
+    border: 0px;
+}
+.mainButon:hover{
+    box-shadow: 3px 3px rgb(173, 223, 173);
+}
+
+.secundaryButon{
+    background-color:#1b38b7;
+    color:white;
+    border: 0px;
+}
+.secundaryButon:hover{
+    box-shadow: 3px 3px rgb(35, 62, 214);
+}
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input{
+    outline: none;
+    border: 0px;
+    
+}
