@@ -10,7 +10,6 @@ ul{
     padding: 10px;
     background-color: rgb(237, 237, 238);
     border-bottom: 1px 1px solid gray;
-    
 }
 .navbar > li{
     display: flex;
