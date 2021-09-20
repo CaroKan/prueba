@@ -72,3 +72,21 @@ body{
 .iconoBusqueda:hover{
     color: #1b38b7;
 }
+.breadCardContainer
+{
+    display: flex;
+
+}
+.breedCard{
+    margin: 10px;
+}
+.contenedorImagen{
+    width: 240px;
+    height: 240px;
+    display: flex
+}
+.contenedorImagen > img{
+    object-fit:cover;
+    width: 100%;
+}
+
