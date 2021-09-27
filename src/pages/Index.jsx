@@ -1,6 +1,6 @@
 import CardRazasPerros from 'components/CardRazasPerros';
 import borderCollie from 'media/borderCollie.jpg';
-import rhodesian from 'media/rhodesian.jpg';
+import rhodesian from 'media/Rhodesian.jpg';
 
 function Index() {
   return (

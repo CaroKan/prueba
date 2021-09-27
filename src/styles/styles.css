@@ -1,58 +1,78 @@
-ul{
-  list-style:none ;
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
-.navbar{
-  display:flex ;
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mainContainer > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.mainContainer > footer {
+  background-color: red;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
   justify-content: space-between;
   padding: 10px;
   background-color: rgb(237, 237, 238);
   border-bottom: 1px solid gray;
   box-shadow: 1px 1px gray;
 }
-.navbar > li{
+
+.navbar > li {
   display: flex;
   align-items: center;
 }
 
-body{
-  margin: 0%;
-}
-.logo{
-  height: 80px;
+.logo {
+  height: 70px;
 }
 
-.button{
+.botonGenerico {
   border: 0px;
   padding: 5px 10px;
-  border-radius:10px;
+  border-radius: 10px;
   font-weight: bolder;
 }
-.button:hover{
+.botonGenerico:hover {
   cursor: pointer;
-  /*box-shadow: 3px 3px rgb(173, 223, 173);*/
-  transform: scale(1.1); /*--transforma el boton*/
-}
-.mainButon{
-  background-color:#1bb76e;
-  color:white;
-  border: 0px;
-}
-.mainButon:hover{
-  box-shadow: 3px 3px rgb(173, 223, 173);
+  transform: scale(1.1);
 }
 
-.secundaryButon{
-  background-color:#1b38b7;
-  color:white;
-  border: 0px;
+.mainButton {
+  background-color: #1bb76e;
+  color: white;
 }
-.secundaryButon:hover{
-  box-shadow: 3px 3px rgb(35, 62, 214);
+
+.mainButton:hover {
+  box-shadow: 1px 1px green;
 }
-.buscar{
+
+.secondaryButton {
+  background-color: #66d8f5;
+  color: white;
+}
+
+.secondaryButton:hover {
+  box-shadow: 1px 1px rgb(119, 229, 233);
+}
+
+.buscar {
   background-color: white;
   border: 1px solid gray;
   padding: 4px;
@@ -61,50 +81,61 @@ body{
   display: flex;
   justify-content: space-between;
 }
-.buscar:focus-within{
+
+.buscar:focus-within {
   border: 1px solid blue;
 }
-.buscar > input{
+
+.buscar > input {
   outline: none;
   border: 0px;
-  
 }
-.iconoBusqueda:hover{
-  color: #1b38b7;
-}
-.breadCardContainer
-{
-  display: flex;
 
+.iconoBusqueda:hover {
+  color: blue;
 }
-.breedCard{
+
+.breedCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breedCard {
   margin: 10px;
   background-color: rgb(78, 78, 90);
   box-shadow: 5px 10px 5px rgb(231, 231, 231);
   border-radius: 10px;
 }
-.breedTitle{
+
+.breedTitle {
   color: white;
   margin: 10px;
   font-weight: bold;
   font-size: x-large;
-
 }
-.contenedorImagen{
+
+.contenedorImagen {
   width: 240px;
-  height: 240px;
+  height: 350px;
   display: flex;
   margin-bottom: 10px;
 }
-.contenedorImagen:hover{
+
+.contenedorImagen:hover {
   cursor: pointer;
   transform: scale(1.02);
 }
-.contenedorImagen > img{
-  object-fit:cover;
+
+.contenedorImagen > img {
+  object-fit: cover;
   width: 100%;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
-
-
+.backGroundRojo {
+  background-color: red;
+}
+.backGroundVerde {
+  background-color: green;
+}

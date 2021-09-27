@@ -1,4 +1,4 @@
-import logo from 'media/logo.png';
+import logo from 'media/perroLogo.png';
 const Header = () => {
   return (
     <header>
